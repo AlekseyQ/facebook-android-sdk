@@ -1,14 +1,15 @@
 // Facebook SDK
 include ':facebook'
+include ':facebook-android-wrapper'
 
 // Samples
-include ':samples:HelloFacebookSample'
-include ':samples:Iconicus'
-include ':samples:RPSSample'
-include ':samples:MessengerSendSample'
-include ':samples:Scrumptious'
-include ':samples:SwitchUserSample'
-include ':samples:ShareIt'
+//include ':samples:HelloFacebookSample'
+//include ':samples:Iconicus'
+//include ':samples:RPSSample'
+//include ':samples:MessengerSendSample'
+//include ':samples:Scrumptious'
+//include ':samples:SwitchUserSample'
+//include ':samples:ShareIt'
 
 if (file('internal/internal-settings.gradle').exists()) {
   apply from: 'internal/internal-settings.gradle'
